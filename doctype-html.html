@@ -1,0 +1,223 @@
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;!DOCTYPE html&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;html lang="es"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;head&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;meta charset="UTF-8"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;title&gt;Línea de Tiempo de Tarjetas Gráficas&lt;/title&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;style&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; body { font-family: Arial, sans-serif; background-color: #f5f5f5; color: #333; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; h1, footer { color: #1d3557; text-align: center; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; h2 { color: #457b9d; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; p { margin: 0.5em 0; line-height: 1.6; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .timeline { position: relative; max-width: 800px; margin: auto; padding: 20px; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .timeline::after { content: ''; position: absolute; width: 6px; background-color: #457b9d; top: 0; bottom: 0; left: 50%; margin-left: -3px; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event { padding: 10px 40px; position: relative; background-color: inherit; width: 50%; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event.left { left: 0; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event.right { left: 50%; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event::before { content: " "; position: absolute; top: 15px; width: 25px; height: 25px; border-radius: 50%; background-color: #457b9d; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event.left::before { right: -17px; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event.right::before { left: -17px; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; .event-content { padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; footer { margin-top: 30px; font-size: 0.9em; }
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;/style&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;/head&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;body&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;h1&gt;Línea de Tiempo de Tarjetas Gráficas&lt;/h1&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;div class="timeline"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;!-- Evento Adreno --&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;div class="event left"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;div class="event-content"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;h2&gt;Adreno&lt;/h2&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;&lt;strong&gt;Adreno&lt;/strong&gt; es la GPU desarrollada por Qualcomm para dispositivos móviles, especialmente en conjunto con procesadores &lt;strong&gt;Snapdragon&lt;/strong&gt;. Su arquitectura está diseñada para equilibrar el rendimiento y la eficiencia energética.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Optimización en eficiencia energética, ideal para dispositivos móviles.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Compatibilidad con APIs gráficas como OpenGL ES y Vulkan.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Soporte para gráficos HDR y 3D en dispositivos de gama alta.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;Versiones como Adreno 650 y superiores ofrecen gráficos de alta calidad para experiencias avanzadas en dispositivos de gama alta.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;!-- Evento AMD --&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;div class="event right"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;div class="event-content"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;h2&gt;AMD&lt;/h2&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;&lt;strong&gt;AMD&lt;/strong&gt; es líder en desarrollo de tarjetas gráficas, con su línea &lt;strong&gt;Radeon&lt;/strong&gt; enfocada en gaming, estaciones de trabajo y consolas. AMD es conocida por su arquitectura RDNA, que brinda una combinación de rendimiento y eficiencia.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Arquitectura RDNA y RDNA 2, con soporte para ray tracing.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Soporte para APIs como DirectX 12 y Vulkan.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Utilizadas en consolas PlayStation y Xbox, con alta calidad gráfica.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;Las tarjetas de la serie Radeon RX están diseñadas para jugadores de PC que buscan alto rendimiento.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;!-- Evento Snapdragon --&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;div class="event left"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;div class="event-content"&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;h2&gt;Snapdragon&lt;/h2&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;&lt;strong&gt;Snapdragon&lt;/strong&gt;, de Qualcomm, es una familia de SoCs (System on Chip) que integra gráficos Adreno, procesadores y otros componentes en un solo chip para dispositivos móviles, logrando así un equilibrio entre rendimiento y eficiencia.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Integra GPU Adreno, ideal para gráficos de alta calidad en móviles.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Optimización para juegos y aplicaciones avanzadas.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;li&gt;Con tecnologías como Snapdragon Elite Gaming para gráficos y rendimiento mejorados.&lt;/li&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/ul&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;p&gt;Se utiliza en smartphones de gama media y alta, permitiendo experiencias gráficas avanzadas en juegos y multimedia.&lt;/p&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;&#xa0;&#xa0; &lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;/div&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;footer&gt;Hecho por Sergio Acosta&lt;/footer&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&#xa0;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;/body&gt;
+			</p>
+			<p style="margin-top:0pt; margin-bottom:8pt">
+				&lt;/html&gt;
+			</p>
+	<p style="bottom: 10px; right: 10px; position: absolute;"><a href="https://wordtohtml.net" target="_blank" style="font-size:11px; color: #d0d0d0">Convertido a HTML con WordToHTML.net</a></p>
